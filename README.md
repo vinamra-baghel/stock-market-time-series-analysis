@@ -13,7 +13,7 @@ calculated the rmse for score evaluation.
 
 LSTM(Long Short Term Memory): Using the "close" variable as training data and scaler "min-max", first converted the test, 
 and train data to a NumPy array over which we created the LSTM model by adding 3 layers using Sequential() library of Keras 
-and complied the model by using optimizer='adam', loss='mean_squared_error' and fitted data into it using x_train,y_train, 
+and compiled the model by using optimizer='adam', loss='mean_squared_error' and fitted data into it using x_train,y_train, 
 epochs,batch_size, verbose, Next thing was to load the test data and predict values accordingly and calculated the rmse for 
 score evaluation with a prediction for next 10 days.
 
