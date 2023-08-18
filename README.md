@@ -36,9 +36,3 @@ Clone the repo using the following:
 git clone https://github.com/vinamra-baghel/stock-market-time-series-analysis.git
 cd 'stock-market-time-series-analysis'
 ```
-
-Navigate to the `src` folder by using the command:
-
-```
-cd src
-```
